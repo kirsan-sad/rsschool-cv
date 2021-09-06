@@ -1,1 +1,0 @@
-https://kirsan-sad.github.io/rsschool-cv/cv
