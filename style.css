@@ -1,0 +1,199 @@
+/* montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/montserrat-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/montserrat-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/montserrat-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/montserrat-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-500 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/montserrat-v18-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/montserrat-v18-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('./fonts/montserrat-v18-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/montserrat-v18-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body {
+    background: #E3C5C3;
+    padding: 75px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #434343;
+}
+
+.wrapper {
+    width: 920px;
+    margin: 0 auto;
+
+    background: #F9F9F9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.content__wrapper {
+    width: 730px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    width: 383px;
+    padding-top: 30px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 124.69%;
+    letter-spacing: 0.53em;
+
+    color: #434343;
+}
+
+hr {
+
+    transform: rotate(180deg);
+}
+
+.hr {
+    size: 950px;
+    transform: rotate(180deg);
+}
+
+aside {
+    flex: 1;
+}
+
+.aside__block {
+    width: 190px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 124.69%;
+    letter-spacing: 0.53em;
+    text-transform: uppercase;
+}
+
+
+h3{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: capitalize;
+
+}
+
+.main {
+    flex: 2;
+}
+
+.main__block {
+    margin: 30px 0 30px 100px;
+}
+
+.text {
+    font-weight: normal;
+    padding-bottom: 26px;
+}
+
+.icon__text {
+    font-weight: normal;
+    padding-bottom: 14px;
+}
+
+ul {
+    margin: 17px;
+    padding: 0;
+
+    text-transform: uppercase;
+}
+
+.languages {
+    width: 382px;
+    height: 118px;
+
+    background-image: url(languages.svg);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+
+    background-image: url(avatar.svg);
+}
+
+.icon {
+    padding-right: 12px;
+}
+
+.icon img {
+    width: 15px;
+    height: 15px;
+}
+
+.icon__block {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.rslogo {
+    width: 73px;
+    height: 26px;
+
+    background-image: url(rsschool.svg);
+}
+
+.year {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.53em;
+}
